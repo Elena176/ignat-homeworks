@@ -1,0 +1,44 @@
+.list {
+display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    color: forestgreen;
+}
+
+.buttons {
+    margin: 10px 10px 0px 0px;
+    width: 60px;
+    background-color: violet;
+}
+
+.active {
+    opacity: 0.5;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+
+}
+.priority {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.delete {
+    width: 60px;
+    color: forestgreen;
+    background-color: darkgrey;
+}
+.high {
+    color: red;
+}
+
+.middle {
+    color: yellow;
+}
+
+.low {
+    color: limegreen;
+}
