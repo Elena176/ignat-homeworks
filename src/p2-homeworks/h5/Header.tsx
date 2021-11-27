@@ -1,12 +1,13 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import {PATH} from './Routes';
 
 function Header() {
     return (
-        <div>
-            <NavLink to={'/pre-junior'}>PreJunior</NavLink>
-            <NavLink to={'/junior'}>Junior</NavLink>
-            <NavLink to={'/juniorPlus'}>JuniorPlus</NavLink>
+        <div className={s.container}>
+            <NavLink to={PATH.PRE_JUNIOR}>PreJunior</NavLink>
+            <NavLink to={PATH.JUNIOR}>Junior</NavLink>
+            <NavLink to={PATH.JUNIOR_PLUS}>JuniorPlus</NavLink>
             {/*// add NavLinks*/}
         </div>
     )
