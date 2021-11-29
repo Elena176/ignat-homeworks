@@ -1,0 +1,10 @@
+.container {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}

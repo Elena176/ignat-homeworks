@@ -10,7 +10,7 @@ const messageData = {
 }
 
 const alternativeMessageData = {
-    avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
+    avatar: '',
     name: 'My friend',
     message: 'Hy! How are you?',
     time: '22:10',
