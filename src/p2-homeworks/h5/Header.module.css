@@ -1,10 +1,29 @@
 .container {
-    width: 230px;
+    width: 220px;
+}
+
+.slideRight {
     display: flex;
     justify-content: space-between;
+    transform: translate(-110%);
+    transition: transform 1s;
 }
+
+.container:hover .slideRight {
+    transform: translate(0);
+}
+
+.square {
+    width: 25px;
+    height: 25px;
+    background: #f447ff;
+}
+
 .nav {
     text-decoration: none;
-    display: flex;
-    justify-content: space-between;
+    color: #551576;
+}
+
+.navActive {
+    color: #a04cf3;
 }

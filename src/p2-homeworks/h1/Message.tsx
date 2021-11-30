@@ -8,7 +8,7 @@ type MessagePropsType = {
     time: string
 }
 
-function Message(props: MessagePropsType) {
+function Message (props: MessagePropsType) {
     return (
         <div className={s.message}>
             <img className={s.img}
