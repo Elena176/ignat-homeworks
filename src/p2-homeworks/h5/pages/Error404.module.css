@@ -1,0 +1,27 @@
+.errorBlock {
+   /* border: 1px solid;*/
+    text-align: center;
+    position: relative;
+}
+.errorBlock:before {
+    background: url(https://cdn.lifedaily.com/assets/7ada33/dist/images/error/404.svg) no-repeat 50%;
+    width: 535px;
+    height: 293px;
+    content: "";
+    display: block;
+    margin: 0 auto 55px;
+}
+
+.errorBlockText {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.errorText {
+    text-align: center;
+    font-size: 28px;
+    color: #30363c;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
