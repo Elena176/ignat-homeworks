@@ -12,8 +12,8 @@
 
 .errorInput {
     composes: superInput;
-    border: 3px solid lime;
-    background: red;
+    border: 3px solid #f9133e;
+    background: #e0c9f5;
 }
 
 .error {
