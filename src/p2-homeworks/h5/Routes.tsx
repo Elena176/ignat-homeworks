@@ -22,9 +22,7 @@ function Routes() {
                 {/*exact нужен чтоб указать полное совпадение (что после '/' ничего не будет)*/}
                 <Route path={'/'} exact render={() => <Redirect to={PATH.PRE_JUNIOR}/>}/>
                 <Route path={PATH.PRE_JUNIOR} render={() => <PreJunior/>}/>
-                <Route path={'/'} exact render={() => <Redirect to={PATH.JUNIOR}/>}/>
                 <Route path={PATH.JUNIOR} render={() => <Junior/>}/>
-                <Route path={'/'} exact render={() => <Redirect to={PATH.JUNIOR_PLUS}/>}/>
                 <Route path={PATH.JUNIOR_PLUS} render={() => <JuniorPlus/>}/>
                 // add routes
 
