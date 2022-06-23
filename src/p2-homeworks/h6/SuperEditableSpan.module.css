@@ -1,3 +1,7 @@
+body {
+    min-width: 100%;
+}
+
 .editButton {
     background-color: #efc7db;
     cursor: pointer;

@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 import SuperEditableSpan from './common/c4-SuperEditableSpan/SuperEditableSpan'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import {restoreState, saveState} from './localStorage/localStorage'
+import s from './SuperEditableSpan.module.css';
+import style from '../h4/common/c1-SuperInputText/SuperInputText.module.css';
 
 function HW6() {
     const [value, setValue] = useState<string>('')

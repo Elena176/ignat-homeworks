@@ -30,7 +30,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
     ...restProps// все остальные пропсы попадут в объект restProps
   }
 ) => {
-  const [editMode, setEditMode] = useState<boolean>(false)
+  const [editMode, setEditMode] = useState<boolean>(true)
   const {children, onDoubleClick, className, ...restSpanProps} = spanProps || {}
 
   const onEnterCallback = () => {
@@ -52,7 +52,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
   const spanClassName = `${style.superInput} `
 
   return (
-    <>
+    <div>
       {editMode
         ? (
           <SuperInputText
@@ -74,10 +74,8 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
                     </span>
         )
       }
-
-      <button className={s.editButton} onClick={onDoubleClickCallBack}><img className={s.editImage} src={editImage}
-                                                                            alt="editImage"/></button>
-    </>
+      <button className={s.editButton} onClick={onDoubleClickCallBack}><img className={s.editImage} src={editImage} alt="editImage"/></button>
+    </div>
   )
 }
 
