@@ -23,6 +23,7 @@
 
 .inputRadio:hover {
     box-shadow: 0 0 5px 0 #f5bc04 inset;
+    cursor: pointer;
 }
 
 .inputRadio:focus {
