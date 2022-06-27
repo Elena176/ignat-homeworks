@@ -1,5 +1,5 @@
 import React, {SelectHTMLAttributes, DetailedHTMLProps, ChangeEvent} from 'react'
-import s from '../c5-SuperSelect/SuperSelect.module.css';
+import s from './SuperSelect.module.css';
 
 type DefaultSelectPropsType = DetailedHTMLProps<SelectHTMLAttributes<HTMLSelectElement>, HTMLSelectElement>
 
@@ -24,7 +24,6 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
   const onChangeCallback = (e: ChangeEvent<HTMLSelectElement>) => {
     onChange && onChange(e)
     onChangeOption(e.target.value)
-    // onChange, onChangeOption
   }
 
   return (
@@ -34,4 +33,4 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
   )
 }
 
-export default SuperSelect
+export default SuperSelect;
