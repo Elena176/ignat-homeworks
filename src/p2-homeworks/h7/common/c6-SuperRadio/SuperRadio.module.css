@@ -1,0 +1,38 @@
+.container {
+    margin: 10px auto;
+}
+
+.inputRadio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    background-clip: content-box;
+    border: 1px solid #863cf6;
+    border-radius: 50%;
+    margin-right: 2px;
+    margin-left: 10px;
+}
+
+.inputRadio:checked {
+    background-color: #7e23dc;
+}
+
+.inputRadio:hover {
+    box-shadow: 0 0 5px 0 #f5bc04 inset;
+}
+
+.inputRadio:focus {
+    outline: 1px solid #25142E;
+}
+
+.option {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #25142E;
+    padding-left: 3px;
+}
