@@ -30,7 +30,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
     ...restProps// все остальные пропсы попадут в объект restProps
   }
 ) => {
-  const [editMode, setEditMode] = useState<boolean>(true)
+  const [editMode, setEditMode] = useState<boolean>(false)
   const {children, onDoubleClick, className, ...restSpanProps} = spanProps || {}
 
   const onEnterCallback = () => {
